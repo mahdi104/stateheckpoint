@@ -1,10 +1,12 @@
 .positions {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  margin-left: 50%;
-  margin-right: 50%;
-  text-align: center;
+  /* justify-content: center; */
+  /* margin-left: 50%; */
+  flex-direction: column;
+  /* margin-right: 50%; */
+  align-items: center;
+  /* text-align: center; */
 }
 .positions h2 {
   font-size: 20px;
@@ -13,4 +15,6 @@
   color: #756c83;
 }
 
-
+.image {
+  width: 50%;
+}

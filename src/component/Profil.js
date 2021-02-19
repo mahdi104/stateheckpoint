@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Photo from "../assets/photo.jpg";
 import "./Profil.css";
+
 export default class Profil extends Component {
   state = {
     fullName: "Mahdi Dimassi",
@@ -14,9 +15,8 @@ export default class Profil extends Component {
         <h2>{this.state.fullName}</h2>
         <h2>{this.state.bio}</h2>
         <h2>{this.state.profession}</h2>
-        <div>
-          <img src={this.state.image} alt="Photo de Profil" width="320px" />
-        </div>
+
+        <img src={this.state.image} alt="Photo de Profil" width="20%" />
       </div>
     );
   }
